@@ -48,15 +48,15 @@ body {
     background-color: #e8e8f2;
     color: #111;
     font-family: "worker sans light";
-    font-size: max(4vh, 12px); /* greater of 12px or 4% of viewheight */
+    font-size: max(4lvh, 12px); /* greater of 12px or 4% of viewheight */
 }
 
 #main-column {
     background-color: #f8f8f8;
-    min-height: 100vh;
+    min-height: 100dvh;
     
     width: 100%;
-    max-width: 150vh;
+    max-width: 150lvh;
     margin-left: auto;
     margin-right: auto;
 
@@ -142,7 +142,7 @@ body {
     object-fit: contain;
 
     max-width: 100%;
-    max-height: 90vh;
+    max-height: 90lvh;
 }
 
 /* .note {
